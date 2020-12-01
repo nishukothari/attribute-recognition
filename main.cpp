@@ -1,8 +1,7 @@
 #include <torch/torch.h>
-#include <iostream>
+#include "Standard.h"
 
 int main() {
-    torch::Tensor tensor = torch::rand({2, 3});
+    at::Tensor tensor = torch::rand({2, 3});
     std::cout << tensor << std::endl;
 }
-

@@ -7,12 +7,12 @@
 
 #include <torch/torch.h>
 
-class Network : torch::nn::Module {
+class Network : public nn::Module {
 private:
-    torch::nn::Module layers;
+    nn::Module layers;
 public:
     Network();
-    torch::Tensor forward(torch::Tensor image);
+    at::Tensor forward(at::Tensor image);
 };
 
 
