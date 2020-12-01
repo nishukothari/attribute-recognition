@@ -7,9 +7,9 @@
 
 #include <torch/torch.h>
 
-class Network : public nn::Module {
+class Network : torch::nn::Module {
 private:
-    nn::Module layers;
+    torch::nn::Module layers;
 public:
     Network();
     at::Tensor forward(at::Tensor image);

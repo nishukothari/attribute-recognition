@@ -1,0 +1,12 @@
+//
+// Created by Nishant Kothari on 11/30/20.
+//
+
+#ifndef ATTRIBUTE_RECOGNITION_DATALOADER_H
+#define ATTRIBUTE_RECOGNITION_DATALOADER_H
+
+class Dataloader {
+
+};
+
+#endif //ATTRIBUTE_RECOGNITION_DATALOADER_H
