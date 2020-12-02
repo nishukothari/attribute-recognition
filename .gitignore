@@ -1,4 +1,2 @@
-cmake-build-caen
-cmake-build-debug
-comp-cars
 .idea
+/cmake-build-debug-caen/
